@@ -25,13 +25,24 @@
           <div class="mui--text-black-54 mui--text-body2">Задай вопрос</div>
           <div class="mui-divider"></div>
           <br />
-          <form class="mui-form">
+          <form class="mui-form" id="form">
             <div class="mui-textfield mui-textfield--float-label">
-              <input type="text" />
-              <label>Input 1</label>
+              <input
+                type="text"
+                id="question-input"
+                required
+                minlength="10"
+                maxlength="300"
+              />
+              <label>Что хочешь спросить?</label>
             </div>
-            <button type="submit" class="mui-btn mui-btn--raised">
-              Submit
+            <button
+              type="submit"
+              class="mui-btn mui-btn--raised mui-btn--primary"
+              id="submit"
+              disabled
+            >
+              Задай вопрос
             </button>
           </form>
           <br />
@@ -39,7 +50,7 @@
           <div class="mui-divider"></div>
           <br />
 
-          <!--           <div class="mui--text-headline">MUI Acquires New Features</div>
+          <div class="mui--text-headline">MUI Acquires New Features</div>
           <div class="mui--text-black-54">
             By <a href="#">Team MUI</a> 3 weeks ago
           </div>
@@ -50,7 +61,7 @@
             primis in faucibus. Nunc cursus felis nec purus condimentum
             vestibulum. Donec mauris nisi, sollicitudin eget iaculis id,
             suscipit id odio. <a href="#">Read more...</a>
-          </div> -->
+          </div>
         </div>
       </div>
     </div>
