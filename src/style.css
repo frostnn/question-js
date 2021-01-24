@@ -43,4 +43,33 @@ button {
     margin-left: 180px;
   }
 }
+
+.floating-btn {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  background: #2196f3;
+}
+
+.modal {
+  max-width: 350px;
+  max-height: 300px;
+  margin: 100px auto;
+  overflow-y: auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.modal h1 {
+  text-align: center;
+}
+
+.modal .modal-content {
+  padding: 15px;
+}
+
+.error {
+  color: #ec3629;
+}
 /*# sourceMappingURL=style.css.map */
